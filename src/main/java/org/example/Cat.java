@@ -11,4 +11,9 @@ public class Cat extends Animal{
     public Boolean eat(String foodType) {
         return true;
     }
+
+    @Override
+    public void showMood(boolean mood) {
+
+    }
 }

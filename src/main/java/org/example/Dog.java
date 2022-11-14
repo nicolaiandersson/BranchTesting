@@ -10,4 +10,9 @@ public class Dog extends Animal{
     public Boolean eat(String foodType) {
         return true;
     }
+
+    @Override
+    public void showMood(boolean mood) {
+
+    }
 }
